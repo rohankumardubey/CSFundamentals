@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09c18f9c-08b5-48a4-b0c0-5d5102ab6cf8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/target/classes/org/redquark/csfundamentals/dswithjava/linkedlists/SinglyLinkedList$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/redquark/csfundamentals/dswithjava/linkedlists/SinglyLinkedList$SinglyLinkedListIterator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/redquark/csfundamentals/dswithjava/linkedlists/SinglyLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/redquark/csfundamentals/dswithjava/linkedlists/applications/Polynomial$Monomial.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/redquark/csfundamentals/dswithjava/linkedlists/applications/Polynomial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/applications/Polynomial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/applications/Polynomial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/SinglyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/SinglyLinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/applications/PolynomialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/applications/PolynomialTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/SinglyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="592">
+              <caret line="49" column="23" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/applications/Polynomial.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
-              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
               <folding>
                 <element signature="e#5678#5679#0" expanded="true" />
                 <element signature="e#5762#5763#0" expanded="true" />
@@ -64,15 +57,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/SinglyLinkedListTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/FindMiddleElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+            <state relative-caret-position="169">
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+              <folding>
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/FindMiddleElementTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="32" column="69" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2316#2317#0" expanded="true" />
-                <element signature="e#2378#2379#0" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
+                <element signature="e#824#825#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,6 +103,7 @@
       <find>LinkedList</find>
       <find>toString</find>
       <find>index</find>
+      <find>addlast</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,6 +127,8 @@
         <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/applications/Polynomial.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/applications/PolynomialTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/SinglyLinkedListTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/FindMiddleElement.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/FindMiddleElementTest.java" />
       </list>
     </option>
   </component>
@@ -172,6 +181,14 @@
               <item name="DSWithJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="DSWithJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedlists" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSWithJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSWithJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -180,6 +197,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSWithJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSWithJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedlists" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,7 +239,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PolynomialTest">
+  <component name="RunManager" selected="JUnit.FindMiddleElementTest">
+    <configuration name="FindMiddleElementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DSWithJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems" />
+      <option name="MAIN_CLASS_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems.FindMiddleElementTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PolynomialTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DSWithJava" />
       <extension name="coverage">
@@ -247,6 +287,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindMiddleElementTest" />
         <item itemvalue="JUnit.PolynomialTest" />
         <item itemvalue="JUnit.SinglyLinkedListTest" />
       </list>
@@ -277,46 +318,53 @@
       <option name="project" value="LOCAL" />
       <updated>1554738307799</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Removed binary class files and added comments">
+      <created>1554742551550</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554742551550</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PolynomialTest - 2019.04.08 at 20h 12m 34s.xml">
-      <configuration name="PolynomialTest" configurationId="JUnit" />
+    <history-entry file="FindMiddleElementTest - 2019.04.09 at 01h 09m 24s.xml">
+      <configuration name="FindMiddleElementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolynomialTest - 2019.04.08 at 20h 12m 43s.xml">
-      <configuration name="PolynomialTest" configurationId="JUnit" />
+    <history-entry file="FindMiddleElementTest - 2019.04.09 at 01h 10m 04s.xml">
+      <configuration name="FindMiddleElementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolynomialTest - 2019.04.08 at 20h 14m 53s.xml">
-      <configuration name="PolynomialTest" configurationId="JUnit" />
+    <history-entry file="FindMiddleElementTest - 2019.04.09 at 01h 10m 28s.xml">
+      <configuration name="FindMiddleElementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolynomialTest - 2019.04.08 at 20h 15m 16s.xml">
-      <configuration name="PolynomialTest" configurationId="JUnit" />
+    <history-entry file="FindMiddleElementTest - 2019.04.09 at 01h 10m 52s.xml">
+      <configuration name="FindMiddleElementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolynomialTest - 2019.04.08 at 20h 15m 35s.xml">
-      <configuration name="PolynomialTest" configurationId="JUnit" />
+    <history-entry file="FindMiddleElementTest - 2019.04.09 at 01h 11m 50s.xml">
+      <configuration name="FindMiddleElementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolynomialTest - 2019.04.08 at 20h 18m 32s.xml">
-      <configuration name="PolynomialTest" configurationId="JUnit" />
+    <history-entry file="FindMiddleElementTest - 2019.04.09 at 01h 12m 06s.xml">
+      <configuration name="FindMiddleElementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolynomialTest - 2019.04.08 at 20h 19m 04s.xml">
-      <configuration name="PolynomialTest" configurationId="JUnit" />
+    <history-entry file="FindMiddleElementTest - 2019.04.09 at 01h 22m 40s.xml">
+      <configuration name="FindMiddleElementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolynomialTest - 2019.04.08 at 20h 21m 32s.xml">
-      <configuration name="PolynomialTest" configurationId="JUnit" />
+    <history-entry file="FindMiddleElementTest - 2019.04.09 at 01h 24m 00s.xml">
+      <configuration name="FindMiddleElementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolynomialTest - 2019.04.08 at 20h 23m 53s.xml">
-      <configuration name="PolynomialTest" configurationId="JUnit" />
+    <history-entry file="FindMiddleElementTest - 2019.04.09 at 01h 24m 22s.xml">
+      <configuration name="FindMiddleElementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PolynomialTest - 2019.04.08 at 20h 26m 36s.xml">
-      <configuration name="PolynomialTest" configurationId="JUnit" />
+    <history-entry file="FindMiddleElementTest - 2019.04.09 at 01h 26m 29s.xml">
+      <configuration name="FindMiddleElementTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679758" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679758" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -325,7 +373,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32736155" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32736155" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -376,7 +424,8 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Adding implementation of Singly Linked List" />
     <MESSAGE value="Added Polynomial application of Singly Linked List along with its test cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Polynomial application of Singly Linked List along with its test cases" />
+    <MESSAGE value="Removed binary class files and added comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed binary class files and added comments" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -419,20 +468,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/SinglyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/applications/Polynomial.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
           <folding>
             <element signature="e#5678#5679#0" expanded="true" />
             <element signature="e#5762#5763#0" expanded="true" />
@@ -454,12 +493,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/SinglyLinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        <state relative-caret-position="368">
+          <caret line="70" column="7" lean-forward="true" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2316#2317#0" expanded="true" />
             <element signature="e#2378#2379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/SinglyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="49" column="23" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/FindMiddleElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding>
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/FindMiddleElementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="32" column="69" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
           </folding>
         </state>
       </provider>

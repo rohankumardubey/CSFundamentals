@@ -2,6 +2,12 @@ package org.redquark.csfundamentals.dswithjava.linkedlists.applications;
 
 import java.text.DecimalFormat;
 
+/**
+ * @Author Anirudh Sharma
+ * <p>
+ * This class represents various operations on a Polynomial.
+ * Here we are using Linked Lists to implement polynomials.
+ */
 public class Polynomial {
 
 	// This number represents the number of decimal places (precision)

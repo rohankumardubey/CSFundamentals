@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/Loop.java" line="114" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/Loop.java" line="115" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09c18f9c-08b5-48a4-b0c0-5d5102ab6cf8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/FindNthNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/FindNthNodeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/Loop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1680">
-              <caret line="105" column="12" selection-start-line="105" selection-start-column="12" selection-end-line="105" selection-end-column="12" />
+            <state relative-caret-position="-176">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#312#313#0" expanded="true" />
                 <element signature="e#329#330#0" expanded="true" />
@@ -34,11 +36,40 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/FindNthNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+              <folding>
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/FindNthNodeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="592">
+              <caret line="37" column="97" selection-start-line="37" selection-start-column="97" selection-end-line="37" selection-end-column="97" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
+                <element signature="e#781#782#0" expanded="true" />
+                <element signature="e#809#810#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/LoopTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="41" column="73" selection-start-line="41" selection-start-column="73" selection-end-line="41" selection-end-column="73" />
+            <state relative-caret-position="176">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="26" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#660#661#0" expanded="true" />
@@ -69,9 +100,11 @@
       <find>index</find>
       <find>addlast</find>
       <find>findMiddleElement</find>
+      <find>loop</find>
     </findStrings>
     <replaceStrings>
       <replace>loop</replace>
+      <replace>findNthNode</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -97,8 +130,10 @@
         <option value="$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/SinglyLinkedListTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/FindMiddleElementTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/FindMiddleElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/Loop.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/LoopTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/Loop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/FindNthNode.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/FindNthNodeTest.java" />
       </list>
     </option>
   </component>
@@ -227,8 +262,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoopTest">
-    <configuration name="FindMiddleElementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FindNthNodeTest">
+    <configuration name="FindNthNodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DSWithJava" />
       <extension name="coverage">
         <pattern>
@@ -237,8 +272,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems" />
-      <option name="MAIN_CLASS_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems.FindMiddleElementTest" />
+      <option name="MAIN_CLASS_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems.FindNthNodeTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindNthNodeTest.testFromStart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DSWithJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems" />
+      <option name="MAIN_CLASS_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems.FindNthNodeTest" />
+      <option name="METHOD_NAME" value="testFromStart" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -254,22 +305,6 @@
       <option name="PACKAGE_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems" />
       <option name="MAIN_CLASS_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems.LoopTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoopTest.testDetectLoop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DSWithJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems" />
-      <option name="MAIN_CLASS_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems.LoopTest" />
-      <option name="METHOD_NAME" value="testDetectLoop" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -308,11 +343,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindNthNodeTest" />
+        <item itemvalue="JUnit.FindNthNodeTest.testFromStart" />
         <item itemvalue="JUnit.LoopTest" />
         <item itemvalue="JUnit.LoopTest.testLoopLength" />
         <item itemvalue="JUnit.LoopTest.testRemoveLoop" />
-        <item itemvalue="JUnit.LoopTest.testDetectLoop" />
-        <item itemvalue="JUnit.FindMiddleElementTest" />
       </list>
     </recent_temporary>
   </component>
@@ -355,46 +390,52 @@
       <option name="project" value="LOCAL" />
       <updated>1554753777869</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added the code for finding the loop, finding the length of the loop if exists and removing the loop in the linked list. Test cases for the same are also added">
+      <created>1554817518694</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554817518694</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoopTest_testRemoveLoop - 2019.04.09 at 13h 16m 36s.xml">
-      <configuration name="LoopTest.testRemoveLoop" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoopTest_testRemoveLoop - 2019.04.09 at 13h 17m 12s.xml">
-      <configuration name="LoopTest.testRemoveLoop" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoopTest_testRemoveLoop - 2019.04.09 at 13h 17m 44s.xml">
-      <configuration name="LoopTest.testRemoveLoop" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoopTest_testRemoveLoop - 2019.04.09 at 13h 22m 46s.xml">
-      <configuration name="LoopTest.testRemoveLoop" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoopTest_testLoopLength - 2019.04.09 at 13h 22m 56s.xml">
-      <configuration name="LoopTest.testLoopLength" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoopTest_testLoopLength - 2019.04.09 at 13h 25m 08s.xml">
-      <configuration name="LoopTest.testLoopLength" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoopTest_testLoopLength - 2019.04.09 at 13h 26m 38s.xml">
-      <configuration name="LoopTest.testLoopLength" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoopTest_testLoopLength - 2019.04.09 at 13h 27m 45s.xml">
-      <configuration name="LoopTest.testLoopLength" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoopTest - 2019.04.09 at 13h 28m 01s.xml">
-      <configuration name="LoopTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LoopTest - 2019.04.09 at 19h 10m 20s.xml">
       <configuration name="LoopTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindNthNodeTest_testFromStart - 2019.04.09 at 19h 48m 47s.xml">
+      <configuration name="FindNthNodeTest.testFromStart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindNthNodeTest_testFromStart - 2019.04.09 at 19h 49m 34s.xml">
+      <configuration name="FindNthNodeTest.testFromStart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindNthNodeTest - 2019.04.09 at 19h 49m 40s.xml">
+      <configuration name="FindNthNodeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindNthNodeTest - 2019.04.09 at 19h 49m 52s.xml">
+      <configuration name="FindNthNodeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindNthNodeTest - 2019.04.09 at 19h 50m 03s.xml">
+      <configuration name="FindNthNodeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindNthNodeTest - 2019.04.09 at 19h 50m 39s.xml">
+      <configuration name="FindNthNodeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindNthNodeTest - 2019.04.09 at 19h 52m 11s.xml">
+      <configuration name="FindNthNodeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindNthNodeTest - 2019.04.09 at 19h 53m 09s.xml">
+      <configuration name="FindNthNodeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindNthNodeTest - 2019.04.09 at 19h 53m 49s.xml">
+      <configuration name="FindNthNodeTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679758" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679758" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -403,7 +444,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32736155" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32736155" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -456,7 +497,8 @@
     <MESSAGE value="Added Polynomial application of Singly Linked List along with its test cases" />
     <MESSAGE value="Removed binary class files and added comments" />
     <MESSAGE value="Added the code for finding the middle element in a linked list and its test cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the code for finding the middle element in a linked list and its test cases" />
+    <MESSAGE value="Added the code for finding the loop, finding the length of the loop if exists and removing the loop in the linked list. Test cases for the same are also added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the code for finding the loop, finding the length of the loop if exists and removing the loop in the linked list. Test cases for the same are also added" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -567,8 +609,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/Loop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="105" column="12" selection-start-line="105" selection-start-column="12" selection-end-line="105" selection-end-column="12" />
+        <state relative-caret-position="-176">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#312#313#0" expanded="true" />
             <element signature="e#329#330#0" expanded="true" />
@@ -578,12 +620,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/LoopTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="41" column="73" selection-start-line="41" selection-start-column="73" selection-end-line="41" selection-end-column="73" />
+        <state relative-caret-position="176">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="26" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#660#661#0" expanded="true" />
             <element signature="e#688#689#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/FindNthNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/FindNthNodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="37" column="97" selection-start-line="37" selection-start-column="97" selection-end-line="37" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
           </folding>
         </state>
       </provider>

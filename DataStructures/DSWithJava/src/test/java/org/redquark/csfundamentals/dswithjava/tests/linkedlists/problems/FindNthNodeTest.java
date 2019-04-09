@@ -5,7 +5,12 @@ import org.junit.Before;
 import org.junit.Test;
 import org.redquark.csfundamentals.dswithjava.linkedlists.problems.FindNthNode;
 
-public class FindNthNodeTest {
+/**
+ * This class tests the FindNthNode class
+ *
+ * @Author Anirudh Sharma
+ */
+public class FindNthNodeTest<T> {
 
 	// Instance of FindNthNode class
 	private FindNthNode<Integer> findNthNode;

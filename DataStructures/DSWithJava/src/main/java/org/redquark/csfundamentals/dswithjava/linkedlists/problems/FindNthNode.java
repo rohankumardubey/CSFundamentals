@@ -2,6 +2,12 @@ package org.redquark.csfundamentals.dswithjava.linkedlists.problems;
 
 import java.util.NoSuchElementException;
 
+/**
+ * This class demonstrates the methods of finding the Nth node from the start and end of a lin
+ *
+ * @param <T>
+ * @Author Anirudh Sharma
+ */
 public class FindNthNode<T> {
 
 	// Head node of the linked list

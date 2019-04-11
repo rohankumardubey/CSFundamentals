@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09c18f9c-08b5-48a4-b0c0-5d5102ab6cf8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/RemoveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/RemoveDuplicatesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/SwapNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/SwapNodesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,76 +23,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/FindNthNode.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/SwapNodes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="5" column="94" selection-start-line="5" selection-start-column="94" selection-end-line="5" selection-end-column="94" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/FindNthNodeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-76">
-              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+            <state relative-caret-position="144">
+              <caret line="93" column="45" selection-start-line="93" selection-start-column="45" selection-end-line="93" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/Palindrome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-              <folding>
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#3123#3124#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/RemoveDuplicates.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/SwapNodesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="79" column="67" selection-start-line="79" selection-start-column="67" selection-end-line="79" selection-end-column="67" />
+            <state relative-caret-position="315">
+              <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#2841#2842#0" expanded="true" />
-                <element signature="e#2885#2886#0" expanded="true" />
-                <element signature="e#3433#3434#0" expanded="true" />
-                <element signature="e#3483#3484#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/RemoveDuplicatesTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="41" column="81" selection-start-line="41" selection-start-column="81" selection-end-line="41" selection-end-column="81" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/PalindromeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#698#699#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,6 +113,8 @@
         <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/Palindrome.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/RemoveDuplicatesTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/RemoveDuplicates.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/SwapNodes.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/SwapNodesTest.java" />
       </list>
     </option>
   </component>
@@ -181,8 +138,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,6 +170,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="linkedlists" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSWithJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSWithJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedlists" type="462c0819:PsiDirectoryNode" />
+              <item name="applications" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DSWithJava" type="b2602c69:ProjectViewProjectNode" />
@@ -259,6 +223,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,38 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RemoveDuplicatesTest">
-    <configuration name="FindNthNodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DSWithJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems" />
-      <option name="MAIN_CLASS_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems.FindNthNodeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindNthNodeTest.testFromStart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DSWithJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems" />
-      <option name="MAIN_CLASS_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems.FindNthNodeTest" />
-      <option name="METHOD_NAME" value="testFromStart" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SwapNodesTest.pairwiseSwap">
     <configuration name="PalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DSWithJava" />
       <extension name="coverage">
@@ -364,13 +299,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SwapNodesTest.pairwiseSwap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DSWithJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems" />
+      <option name="MAIN_CLASS_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems.SwapNodesTest" />
+      <option name="METHOD_NAME" value="pairwiseSwap" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwapNodesTest.testSwapNodes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DSWithJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems" />
+      <option name="MAIN_CLASS_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems.SwapNodesTest" />
+      <option name="METHOD_NAME" value="testSwapNodes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SwapNodesTest.pairwiseSwap" />
+        <item itemvalue="JUnit.SwapNodesTest.testSwapNodes" />
         <item itemvalue="JUnit.RemoveDuplicatesTest" />
         <item itemvalue="JUnit.RemoveDuplicatesTest.testRemoveDuplicatesFromSortedList" />
         <item itemvalue="JUnit.PalindromeTest" />
-        <item itemvalue="JUnit.FindNthNodeTest" />
-        <item itemvalue="JUnit.FindNthNodeTest.testFromStart" />
       </list>
     </recent_temporary>
   </component>
@@ -434,45 +401,52 @@
       <option name="project" value="LOCAL" />
       <updated>1554827367591</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added the code for removing duplicates from the sorted and unsorted linked list. Test cases for the same are also added.">
+      <created>1554916046109</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1554916046109</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RemoveDuplicatesTest_testRemoveDuplicatesFromSortedList - 2019.04.10 at 21h 59m 39s.xml">
-      <configuration name="RemoveDuplicatesTest.testRemoveDuplicatesFromSortedList" configurationId="JUnit" />
+    <history-entry file="SwapNodesTest_testSwapNodes - 2019.04.11 at 22h 10m 40s.xml">
+      <configuration name="SwapNodesTest.testSwapNodes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RemoveDuplicatesTest_testRemoveDuplicatesFromSortedList - 2019.04.10 at 22h 00m 06s.xml">
-      <configuration name="RemoveDuplicatesTest.testRemoveDuplicatesFromSortedList" configurationId="JUnit" />
+    <history-entry file="SwapNodesTest_testSwapNodes - 2019.04.11 at 22h 11m 06s.xml">
+      <configuration name="SwapNodesTest.testSwapNodes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RemoveDuplicatesTest_testRemoveDuplicatesFromSortedList - 2019.04.10 at 22h 00m 18s.xml">
-      <configuration name="RemoveDuplicatesTest.testRemoveDuplicatesFromSortedList" configurationId="JUnit" />
+    <history-entry file="SwapNodesTest_testSwapNodes - 2019.04.11 at 22h 11m 48s.xml">
+      <configuration name="SwapNodesTest.testSwapNodes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RemoveDuplicatesTest_testRemoveDuplicatesFromSortedList - 2019.04.10 at 22h 01m 39s.xml">
-      <configuration name="RemoveDuplicatesTest.testRemoveDuplicatesFromSortedList" configurationId="JUnit" />
+    <history-entry file="SwapNodesTest_testSwapNodes - 2019.04.11 at 22h 14m 05s.xml">
+      <configuration name="SwapNodesTest.testSwapNodes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RemoveDuplicatesTest - 2019.04.10 at 22h 04m 05s.xml">
-      <configuration name="RemoveDuplicatesTest" configurationId="JUnit" />
+    <history-entry file="SwapNodesTest_testSwapNodes - 2019.04.11 at 22h 15m 33s.xml">
+      <configuration name="SwapNodesTest.testSwapNodes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RemoveDuplicatesTest - 2019.04.10 at 22h 05m 22s.xml">
-      <configuration name="RemoveDuplicatesTest" configurationId="JUnit" />
+    <history-entry file="SwapNodesTest_testSwapNodes - 2019.04.11 at 22h 16m 03s.xml">
+      <configuration name="SwapNodesTest.testSwapNodes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RemoveDuplicatesTest - 2019.04.10 at 22h 07m 36s.xml">
-      <configuration name="RemoveDuplicatesTest" configurationId="JUnit" />
+    <history-entry file="SwapNodesTest_testSwapNodes - 2019.04.11 at 22h 16m 30s.xml">
+      <configuration name="SwapNodesTest.testSwapNodes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RemoveDuplicatesTest - 2019.04.10 at 22h 08m 12s.xml">
-      <configuration name="RemoveDuplicatesTest" configurationId="JUnit" />
+    <history-entry file="SwapNodesTest_pairwiseSwap - 2019.04.11 at 22h 27m 03s.xml">
+      <configuration name="SwapNodesTest.pairwiseSwap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RemoveDuplicatesTest - 2019.04.10 at 22h 32m 47s.xml">
-      <configuration name="RemoveDuplicatesTest" configurationId="JUnit" />
+    <history-entry file="SwapNodesTest_pairwiseSwap - 2019.04.11 at 22h 28m 32s.xml">
+      <configuration name="SwapNodesTest.pairwiseSwap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RemoveDuplicatesTest - 2019.04.10 at 22h 33m 43s.xml">
-      <configuration name="RemoveDuplicatesTest" configurationId="JUnit" />
+    <history-entry file="SwapNodesTest_pairwiseSwap - 2019.04.11 at 22h 29m 48s.xml">
+      <configuration name="SwapNodesTest.pairwiseSwap" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.260574" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26435044" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -537,7 +511,8 @@
     <MESSAGE value="Added the code for finding the loop, finding the length of the loop if exists and removing the loop in the linked list. Test cases for the same are also added" />
     <MESSAGE value="Added the code for Nth node from the start and from the end in the linked list. Test cases for the same are also added" />
     <MESSAGE value="Added the code for checking if the singly linked list is palindrome or not. Test cases for the same are also added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the code for checking if the singly linked list is palindrome or not. Test cases for the same are also added." />
+    <MESSAGE value="Added the code for removing duplicates from the sorted and unsorted linked list. Test cases for the same are also added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the code for removing duplicates from the sorted and unsorted linked list. Test cases for the same are also added." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -550,6 +525,12 @@
           <line>50</line>
           <properties />
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/SwapNodes.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -671,34 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/PalindromeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/Palindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/FindNthNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="5" column="94" selection-start-line="5" selection-start-column="94" selection-end-line="5" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/SinglyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
@@ -713,13 +666,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/FindNthNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="94" selection-start-line="5" selection-start-column="94" selection-end-line="5" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/FindNthNodeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
+        <state relative-caret-position="128">
           <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/RemoveDuplicatesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="41" column="78" selection-start-line="41" selection-start-column="78" selection-end-line="41" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/PalindromeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/Palindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1404">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/RemoveDuplicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="141" selection-start-line="133" selection-start-column="4" selection-end-line="141" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="273" selection-start-line="273" selection-end-line="273" />
         </state>
       </provider>
     </entry>
@@ -730,35 +738,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/runners/ParentRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/SwapNodes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="278" selection-start-line="278" selection-end-line="278" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/RemoveDuplicatesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="41" column="81" selection-start-line="41" selection-start-column="81" selection-end-line="41" selection-end-column="81" />
+        <state relative-caret-position="144">
+          <caret line="93" column="45" selection-start-line="93" selection-start-column="45" selection-end-line="93" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#3123#3124#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/RemoveDuplicates.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/SwapNodesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="79" column="67" selection-start-line="79" selection-start-column="67" selection-end-line="79" selection-end-column="67" />
+        <state relative-caret-position="315">
+          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#2841#2842#0" expanded="true" />
-            <element signature="e#2885#2886#0" expanded="true" />
-            <element signature="e#3433#3434#0" expanded="true" />
-            <element signature="e#3483#3484#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09c18f9c-08b5-48a4-b0c0-5d5102ab6cf8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/UnionAndIntersection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/UnionAndIntersectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/IntersectionPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/IntersectionPointTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,26 +22,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/UnionAndIntersection.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/IntersectionPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="-1728">
+              <caret line="3" column="69" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="69" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#3990#3991#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/UnionAndIntersectionTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/IntersectionPointTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+            <state relative-caret-position="224">
+              <caret line="37" column="85" selection-start-line="37" selection-start-column="85" selection-end-line="37" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,6 +111,8 @@
         <option value="$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/SwapNodesTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/UnionAndIntersectionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/UnionAndIntersection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/IntersectionPoint.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/IntersectionPointTest.java" />
       </list>
     </option>
   </component>
@@ -136,93 +136,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DSWithJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSWithJava" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSWithJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSWithJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSWithJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSWithJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSWithJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSWithJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSWithJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSWithJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlists" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSWithJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSWithJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlists" type="462c0819:PsiDirectoryNode" />
-              <item name="applications" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSWithJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSWithJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlists" type="462c0819:PsiDirectoryNode" />
-              <item name="problems" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSWithJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSWithJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSWithJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSWithJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSWithJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSWithJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlists" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSWithJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSWithJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlists" type="462c0819:PsiDirectoryNode" />
-              <item name="problems" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,7 +166,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UnionAndIntersectionTest">
+  <component name="RunManager" selected="JUnit.IntersectionPointTest.testFindIntersectionPoint">
+    <configuration name="IntersectionPointTest.testFindIntersectionPoint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DSWithJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems" />
+      <option name="MAIN_CLASS_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems.IntersectionPointTest" />
+      <option name="METHOD_NAME" value="testFindIntersectionPoint" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SwapNodesTest.pairwiseSwap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DSWithJava" />
       <extension name="coverage">
@@ -262,22 +194,6 @@
       <option name="PACKAGE_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems" />
       <option name="MAIN_CLASS_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems.SwapNodesTest" />
       <option name="METHOD_NAME" value="pairwiseSwap" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SwapNodesTest.testSwapNodes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DSWithJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems" />
-      <option name="MAIN_CLASS_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems.SwapNodesTest" />
-      <option name="METHOD_NAME" value="testSwapNodes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -332,11 +248,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IntersectionPointTest.testFindIntersectionPoint" />
         <item itemvalue="JUnit.UnionAndIntersectionTest" />
         <item itemvalue="JUnit.UnionAndIntersectionTest.testIntersection" />
         <item itemvalue="JUnit.UnionAndIntersectionTest.testUnion" />
         <item itemvalue="JUnit.SwapNodesTest.pairwiseSwap" />
-        <item itemvalue="JUnit.SwapNodesTest.testSwapNodes" />
       </list>
     </recent_temporary>
   </component>
@@ -414,31 +330,17 @@
       <option name="project" value="LOCAL" />
       <updated>1555002167511</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added the code for creating union and intersection of two lists. Test cases for the same are also added.">
+      <created>1555083451965</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1555083451965</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SwapNodesTest_pairwiseSwap - 2019.04.11 at 22h 28m 32s.xml">
-      <configuration name="SwapNodesTest.pairwiseSwap" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SwapNodesTest_pairwiseSwap - 2019.04.11 at 22h 29m 48s.xml">
-      <configuration name="SwapNodesTest.pairwiseSwap" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnionAndIntersectionTest_testUnion - 2019.04.12 at 20h 15m 27s.xml">
-      <configuration name="UnionAndIntersectionTest.testUnion" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnionAndIntersectionTest_testUnion - 2019.04.12 at 20h 16m 54s.xml">
-      <configuration name="UnionAndIntersectionTest.testUnion" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnionAndIntersectionTest_testUnion - 2019.04.12 at 20h 18m 06s.xml">
-      <configuration name="UnionAndIntersectionTest.testUnion" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnionAndIntersectionTest_testIntersection - 2019.04.12 at 20h 26m 54s.xml">
-      <configuration name="UnionAndIntersectionTest.testIntersection" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnionAndIntersectionTest_testIntersection - 2019.04.12 at 20h 28m 23s.xml">
-      <configuration name="UnionAndIntersectionTest.testIntersection" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UnionAndIntersectionTest_testIntersection - 2019.04.12 at 20h 28m 49s.xml">
       <configuration name="UnionAndIntersectionTest.testIntersection" configurationId="JUnit" />
     </history-entry>
@@ -448,11 +350,32 @@
     <history-entry file="UnionAndIntersectionTest - 2019.04.12 at 20h 29m 12s.xml">
       <configuration name="UnionAndIntersectionTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="IntersectionPointTest_testFindIntersectionPoint - 2019.04.13 at 21h 28m 34s.xml">
+      <configuration name="IntersectionPointTest.testFindIntersectionPoint" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntersectionPointTest_testFindIntersectionPoint - 2019.04.13 at 21h 29m 20s.xml">
+      <configuration name="IntersectionPointTest.testFindIntersectionPoint" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntersectionPointTest_testFindIntersectionPoint - 2019.04.13 at 21h 29m 33s.xml">
+      <configuration name="IntersectionPointTest.testFindIntersectionPoint" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntersectionPointTest_testFindIntersectionPoint - 2019.04.13 at 21h 29m 57s.xml">
+      <configuration name="IntersectionPointTest.testFindIntersectionPoint" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntersectionPointTest_testFindIntersectionPoint - 2019.04.13 at 21h 30m 14s.xml">
+      <configuration name="IntersectionPointTest.testFindIntersectionPoint" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntersectionPointTest_testFindIntersectionPoint - 2019.04.13 at 21h 31m 31s.xml">
+      <configuration name="IntersectionPointTest.testFindIntersectionPoint" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntersectionPointTest_testFindIntersectionPoint - 2019.04.13 at 21h 32m 02s.xml">
+      <configuration name="IntersectionPointTest.testFindIntersectionPoint" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26812688" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27567977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -461,8 +384,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32736155" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32736155" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -519,7 +442,8 @@
     <MESSAGE value="Added the code for checking if the singly linked list is palindrome or not. Test cases for the same are also added." />
     <MESSAGE value="Added the code for removing duplicates from the sorted and unsorted linked list. Test cases for the same are also added." />
     <MESSAGE value="Added the code for swapping nodes in the linked list. Test cases for the same are also added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the code for swapping nodes in the linked list. Test cases for the same are also added." />
+    <MESSAGE value="Added the code for creating union and intersection of two lists. Test cases for the same are also added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the code for creating union and intersection of two lists. Test cases for the same are also added." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -550,6 +474,12 @@
           <line>97</line>
           <properties />
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/IntersectionPoint.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -779,25 +709,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/UnionAndIntersection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2128">
+          <caret line="138" column="7" selection-start-line="138" selection-start-column="7" selection-end-line="138" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3942#3943#0" expanded="true" />
+            <element signature="e#3990#3991#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/UnionAndIntersectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+        <state relative-caret-position="384">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/UnionAndIntersection.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="114">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#1511#1512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/IntersectionPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1728">
+          <caret line="3" column="69" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="69" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/linkedlists/problems/IntersectionPointTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="37" column="85" selection-start-line="37" selection-start-column="85" selection-end-line="37" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#3990#3991#0" expanded="true" />
           </folding>
         </state>
       </provider>

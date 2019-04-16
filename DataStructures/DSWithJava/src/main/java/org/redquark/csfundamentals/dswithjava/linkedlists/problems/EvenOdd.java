@@ -42,7 +42,7 @@ public class EvenOdd {
 		}
 	}
 
-	public EvenOdd segregate(EvenOdd list) {
+	public EvenOdd segregate() {
 		// Creating variables for starting and end of even and odd lists
 		Node evenStart = null;
 		Node evenEnd = null;
@@ -109,7 +109,7 @@ public class EvenOdd {
 	 *
 	 * @return Iterator
 	 */
-	private Iterator iterator() {
+	private Iterator<Integer> iterator() {
 		return new EvenOddIterator();
 	}
 

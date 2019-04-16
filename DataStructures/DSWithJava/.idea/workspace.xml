@@ -412,12 +412,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UnionAndIntersectionTest_testIntersection - 2019.04.12 at 20h 28m 49s.xml">
-      <configuration name="UnionAndIntersectionTest.testIntersection" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnionAndIntersectionTest_testIntersection - 2019.04.12 at 20h 29m 04s.xml">
-      <configuration name="UnionAndIntersectionTest.testIntersection" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UnionAndIntersectionTest - 2019.04.12 at 20h 29m 12s.xml">
       <configuration name="UnionAndIntersectionTest" configurationId="JUnit" />
     </history-entry>
@@ -441,6 +435,12 @@
     </history-entry>
     <history-entry file="IntersectionPointTest_testFindIntersectionPoint - 2019.04.13 at 21h 32m 02s.xml">
       <configuration name="IntersectionPointTest.testFindIntersectionPoint" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EvenOddTest - 2019.04.16 at 22h 16m 51s.xml">
+      <configuration name="EvenOddTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EvenOddTest - 2019.04.16 at 22h 17m 29s.xml">
+      <configuration name="EvenOddTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">

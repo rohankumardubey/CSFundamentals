@@ -38,6 +38,6 @@ public class EvenOddTest {
 	 */
 	@Test
 	public void testSegregate() {
-		Assert.assertEquals(evenOdd.segregate(evenOdd).toString(), "[6, 2, 0, 8, 4, 5, 3, 1, 7, 9]");
+		Assert.assertEquals(evenOdd.segregate().toString(), "[6, 2, 0, 8, 4, 5, 3, 1, 7, 9]");
 	}
 }

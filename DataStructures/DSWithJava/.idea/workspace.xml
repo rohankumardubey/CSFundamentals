@@ -36,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/stacks/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="94" column="24" lean-forward="true" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
+              <caret line="113" column="24" selection-start-line="113" selection-start-column="24" selection-end-line="113" selection-end-column="24" />
               <folding>
                 <element signature="e#220#221#0" expanded="true" />
                 <element signature="e#237#238#0" expanded="true" />
@@ -65,16 +65,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/stacks/StackTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+            <state relative-caret-position="240">
+              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#454#455#0" expanded="true" />
                 <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/stacks/problems/InfixToPostfix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/stacks/problems/InfixToPostfixTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,6 +198,9 @@
         <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/linkedlists/problems/EvenOdd.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/stacks/Stack.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/stacks/StackTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/stacks/problems/InfixToPostfix.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/stacks/problems/InfixToPostfix.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/stacks/problems/InfixToPostfixTest.java" />
       </list>
     </option>
   </component>
@@ -239,6 +263,15 @@
               <item name="DSWithJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="DSWithJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dswithjava" type="462c0819:PsiDirectoryNode" />
+              <item name="stacks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSWithJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSWithJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -255,6 +288,25 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSWithJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSWithJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="stacks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSWithJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSWithJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="stacks" type="462c0819:PsiDirectoryNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -287,7 +339,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StackTest">
+  <component name="RunManager" selected="JUnit.InfixToPostfixTest">
     <configuration name="EvenOddTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DSWithJava" />
       <extension name="coverage">
@@ -298,6 +350,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems" />
       <option name="MAIN_CLASS_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems.EvenOddTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InfixToPostfixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DSWithJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.redquark.csfundamentals.dswithjava.tests.stacks.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.redquark.csfundamentals.dswithjava.tests.stacks.problems" />
+      <option name="MAIN_CLASS_NAME" value="org.redquark.csfundamentals.dswithjava.tests.stacks.problems.InfixToPostfixTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -349,29 +416,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnionAndIntersectionTest.testIntersection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DSWithJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems" />
-      <option name="MAIN_CLASS_NAME" value="org.redquark.csfundamentals.dswithjava.tests.linkedlists.problems.UnionAndIntersectionTest" />
-      <option name="METHOD_NAME" value="testIntersection" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InfixToPostfixTest" />
         <item itemvalue="JUnit.StackTest" />
         <item itemvalue="JUnit.EvenOddTest" />
         <item itemvalue="JUnit.IntersectionPointTest.testFindIntersectionPoint" />
         <item itemvalue="JUnit.UnionAndIntersectionTest" />
-        <item itemvalue="JUnit.UnionAndIntersectionTest.testIntersection" />
       </list>
     </recent_temporary>
   </component>
@@ -477,13 +528,17 @@
       <option name="project" value="LOCAL" />
       <updated>1555433619479</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added the code for list based Stack implementation. Test cases for the same are also added.">
+      <created>1555865674796</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1555865674797</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StackTest - 2019.04.21 at 22h 04m 54s.xml">
-      <configuration name="StackTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StackTest - 2019.04.21 at 22h 09m 01s.xml">
       <configuration name="StackTest" configurationId="JUnit" />
     </history-entry>
@@ -511,12 +566,15 @@
     <history-entry file="StackTest - 2019.04.21 at 22h 21m 07s.xml">
       <configuration name="StackTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StackTest - 2019.04.21 at 22h 22m 37s.xml">
+      <configuration name="StackTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2907855" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2907855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -525,7 +583,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32736155" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32736155" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -586,7 +644,8 @@
     <MESSAGE value="Added the code for creating union and intersection of two lists. Test cases for the same are also added." />
     <MESSAGE value="Added the code for finding the intersection point of two lists. Test cases for the same are also added." />
     <MESSAGE value="Added the code for segregating the even and odd elements in a linked list. Test cases for the same are also added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the code for segregating the even and odd elements in a linked list. Test cases for the same are also added." />
+    <MESSAGE value="Added the code for list based Stack implementation. Test cases for the same are also added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the code for list based Stack implementation. Test cases for the same are also added." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -922,7 +981,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/stacks/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="94" column="24" lean-forward="true" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
+          <caret line="113" column="24" selection-start-line="113" selection-start-column="24" selection-end-line="113" selection-end-column="24" />
           <folding>
             <element signature="e#220#221#0" expanded="true" />
             <element signature="e#237#238#0" expanded="true" />
@@ -936,13 +995,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/stacks/StackTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        <state relative-caret-position="240">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#454#455#0" expanded="true" />
             <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/dswithjava/stacks/problems/InfixToPostfix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/redquark/csfundamentals/dswithjava/tests/stacks/problems/InfixToPostfixTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

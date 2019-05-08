@@ -7,7 +7,7 @@ import java.util.Arrays;
  * <p>
  * This class demonstrates the use of loops in java
  */
-public class Introduction04 {
+public class _04Loops {
 
 	/*
 	 * There are normally four types of loops in Java

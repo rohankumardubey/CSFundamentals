@@ -5,7 +5,7 @@ package org.redquark.java.fundamentals.introduction;
  * <p>
  * This class prints the introductory message of "Hello World!" to the console.
  */
-public class Introduction01 {
+public class _01HelloWorld {
 
 	/**
 	 * main() method is the entry point of any java program i.e. a java program starts its execution from the main

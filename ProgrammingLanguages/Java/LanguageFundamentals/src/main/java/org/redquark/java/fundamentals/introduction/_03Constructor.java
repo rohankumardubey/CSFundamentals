@@ -5,7 +5,7 @@ package org.redquark.java.fundamentals.introduction;
  * <p>
  * This class shows the usage of constructor in Java
  */
-public class Introduction03 {
+public class _03Constructor {
 
 	// Class variable
 	private String name;
@@ -42,7 +42,7 @@ public class Introduction03 {
 	/**
 	 * No argument constructor - This will be called when we create a new instance of the class using the new keyword.
 	 */
-	private Introduction03() {
+	private _03Constructor() {
 		System.out.println("This is no argument constructor");
 	}
 
@@ -51,7 +51,7 @@ public class Introduction03 {
 	 * -----------------------------
 	 * Constructor with arguments is called parameterized constructor.
 	 */
-	private Introduction03(String name) {
+	private _03Constructor(String name) {
 		System.out.println("This is parameterized constructor");
 		// Initialize the name parameter. It will take the value of passed parameter.
 		this.name = name;
@@ -66,10 +66,10 @@ public class Introduction03 {
 	public static void main(String[] args) {
 
 		// Creating an instance of the class using no-argument constructor
-		Introduction03 obj1 = new Introduction03();
+		_03Constructor obj1 = new _03Constructor();
 
 		// Creating an instance of the class using parameterized constructor
-		Introduction03 obj2 = new Introduction03("Anirudh Sharma");
+		_03Constructor obj2 = new _03Constructor("Anirudh Sharma");
 
 		// Calling the class method using the instances created above
 		obj1.sampleMethod();

@@ -9,7 +9,7 @@ import java.util.Scanner;
  * specific task and return the response to the caller. Methods allow us to write reusable code and dividing our
  * program into several small units of work. Java Method promotes clean and more readable code.
  */
-public class Introduction02 {
+public class _02Methods {
 
 	public static void main(String[] args) {
 
@@ -23,7 +23,7 @@ public class Introduction02 {
 		double y = in.nextDouble();
 
 		// Creating an instance of the class to call methods
-		Introduction02 obj = new Introduction02();
+		_02Methods obj = new _02Methods();
 
 		// Performing mathematical operations via methods
 		System.out.println("Mathematical operations >>>");

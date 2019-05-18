@@ -2,27 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70a98e06-22ee-47d1-8a3d-edce5093901b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/redquark/csfundamentals/designpatterns/creational/factory/Computer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/redquark/csfundamentals/designpatterns/creational/factory/ComputerFactory$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/redquark/csfundamentals/designpatterns/creational/factory/ComputerFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/redquark/csfundamentals/designpatterns/creational/factory/ComputerType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/redquark/csfundamentals/designpatterns/creational/factory/FactoryMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/redquark/csfundamentals/designpatterns/creational/factory/PC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/redquark/csfundamentals/designpatterns/creational/factory/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/redquark/csfundamentals/designpatterns/creational/factory/SuperComputer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/ComputerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/ComputerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/FactoryMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/PC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/SuperComputer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../ProgrammingLanguages/Java/LanguageFundamentals/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProgrammingLanguages/Java/LanguageFundamentals/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../ProgrammingLanguages/Java/LanguageFundamentals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProgrammingLanguages/Java/LanguageFundamentals/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -45,13 +53,136 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/Computer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/PC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-70">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#146#147#0" expanded="true" />
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-150">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+              <folding>
+                <element signature="e#149#150#0" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/ComputerFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/FactoryMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="20" column="62" lean-forward="true" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/SuperComputer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+              <folding>
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
+                <element signature="e#599#600#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/ComputerType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>launch.json</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Anirudh Sharma &lt;anirudh03sharma@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/Computer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/ComputerType.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/ComputerFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/SuperComputer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/Server.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/PC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/FactoryMain.java" />
       </list>
     </option>
   </component>
@@ -60,7 +191,9 @@
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -93,6 +226,14 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="designpatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -103,6 +244,13 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.redquark.csfundamentals.designpatterns.creational.factory" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -116,6 +264,29 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="FactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.redquark.csfundamentals.designpatterns.creational.factory.FactoryMain" />
+      <module name="designpatterns.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.redquark.csfundamentals.designpatterns.creational.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FactoryMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="70a98e06-22ee-47d1-8a3d-edce5093901b" name="Default Changelist" comment="" />
@@ -124,6 +295,14 @@
       <option name="presentableId" value="Default" />
       <updated>1558189230571</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit - Project Structure">
+      <created>1558189544070</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558189544070</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -139,10 +318,10 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Build" weight="0.32899022" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -157,5 +336,104 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Initial Commit - Project Structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit - Project Structure" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/PC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-70">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/ComputerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/FactoryMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="62" lean-forward="true" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/ComputerType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/SuperComputer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+          <folding>
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

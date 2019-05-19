@@ -34,33 +34,33 @@ other influencing factors. It then instantiates the selected class and returns i
 The advantage of this approach is that the application objects can make use of the factory method to get access to the appropriate
 class instance. This eliminates the need for an application object to deal with the varying class selection criteria.
 
-![](.ProblemStatement_images/UML Diagram - Factory Design Pattern.png)
+![UML Diagram](https://github.com/ani03sha/CSFundamentals/blob/master/DesignPatterns/Java/DesignPatterns/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/.ProblemStatement_images/UML%20Diagram%20-%20Factory%20Design%20Pattern.png)
 
 ### Product
-• Defines the interface of objects the factory method creates.
+- Defines the interface of objects the factory method creates.
 ### ConcreteProduct
-• Implements the Product interface.
+- Implements the Product interface.
 ### Creator
-• Declares the factory method, which returns an object of type Product. Creator may also define a default implementation of the
+- Declares the factory method, which returns an object of type Product. Creator may also define a default implementation of the
 factory method that returns a default ConcreteProduct object.
-• May call the factory method to create a Product object.
+- May call the factory method to create a Product object.
 ### ConcreteCreator
-• Overrides the factory method to return an instance of a ConcreteProduct.
-
-Factory methods eliminate the need to bind application-specific classes into your code. The code only deals with the Product
+- Overrides the factory method to return an instance of a ConcreteProduct.
+- Factory methods eliminate the need to bind application-specific classes into your code. The code only deals with the Product
 interface; therefore it can work with any user-defined ConcreteProduct classes.
 
 ## When to use the Factory Method Pattern
 Use the Factory Method pattern when
-• A class can’t anticipate the class of objects it must create.
-• A class wants its subclasses to specify the objects it creates.
-• Classes delegate responsibility to one of several helper subclasses, and you want to localize the knowledge of which helper
+- A class can’t anticipate the class of objects it must create.
+- A class wants its subclasses to specify the objects it creates.
+- Classes delegate responsibility to one of several helper subclasses, and you want to localize the knowledge of which helper
 subclass is the delegate.
+
 ## Factory Method Pattern in JDK
 The following are the usage(s) of the Factory Method Pattern in JDK.
-• java.util.Calendar#getInstance()
-• java.util.ResourceBundle#getBundle()
-• java.text.NumberFormat#getInstance()
-• java.nio.charset.Charset#forName()
-• java.net.URLStreamHandlerFactory#createURLStreamHandler(String) (Returns singleton object per
+- java.util.Calendar#getInstance()
+- java.util.ResourceBundle#getBundle()
+- java.text.NumberFormat#getInstance()
+- java.nio.charset.Charset#forName()
+- java.net.URLStreamHandlerFactory#createURLStreamHandler(String) (Returns singleton object per
 protocol)

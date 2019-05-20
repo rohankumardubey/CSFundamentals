@@ -11,7 +11,7 @@ clearly will cause inconsistency to your program.
 The Singleton Pattern ensures that a class has only one instance, and provides a global point of access to it. However, although
 the Singleton is the simplest in terms of its class diagram because there is only one single class, its implementation is a bit trickier.
 
-![](.ProblemStatement.MD_images/UML Diagram - Singleton.png)
+![UML Diagram](https://github.com/ani03sha/CSFundamentals/blob/master/DesignPatterns/Java/DesignPatterns/src/main/java/org/redquark/csfundamentals/designpatterns/creational/singleton/.ProblemStatement.MD_images/UML%20Diagram%20-%20Singleton.png)
 
 ## Ways to create Singleton pattern
 

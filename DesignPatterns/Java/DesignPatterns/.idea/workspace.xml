@@ -1,36 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70a98e06-22ee-47d1-8a3d-edce5093901b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/redquark/csfundamentals/designpatterns/creational/factory/Computer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/redquark/csfundamentals/designpatterns/creational/factory/ComputerFactory$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/redquark/csfundamentals/designpatterns/creational/factory/ComputerFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/redquark/csfundamentals/designpatterns/creational/factory/ComputerType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/redquark/csfundamentals/designpatterns/creational/factory/FactoryMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/redquark/csfundamentals/designpatterns/creational/factory/PC.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/redquark/csfundamentals/designpatterns/creational/factory/Server.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/redquark/csfundamentals/designpatterns/creational/factory/SuperComputer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/ComputerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/ComputerType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/FactoryMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/PC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/SuperComputer.java" afterDir="false" />
+    <list default="true" id="70a98e06-22ee-47d1-8a3d-edce5093901b" name="Default Changelist" comment="Added basic implementation of the A Factory design pattern">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Admin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/.ProblemStatement.MD_images/UML Diagram - Abstract Factory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/AbstractFactoryMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/AbstractXMLParserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/DelhiErrorXMLParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/DelhiFeedbackXMLParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/DelhiOrderXMLParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/DelhiParserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/DelhiResponseXMLParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/DelhiXMLParserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/MumbaiErrorXMLParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/MumbaiFeedbackXMLParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/MumbaiOrderXMLParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/MumbaiResponseXMLParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/MumbaiXMLParserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/ParserFactoryProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/XMLParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/redquark/csfundamentals/designpatterns/creational/factory/Computer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/redquark/csfundamentals/designpatterns/creational/factory/ComputerFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/redquark/csfundamentals/designpatterns/creational/factory/ComputerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/redquark/csfundamentals/designpatterns/creational/factory/ComputerType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/redquark/csfundamentals/designpatterns/creational/factory/FactoryMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/redquark/csfundamentals/designpatterns/creational/factory/PC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/redquark/csfundamentals/designpatterns/creational/factory/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/redquark/csfundamentals/designpatterns/creational/factory/SuperComputer.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../ProgrammingLanguages/Java/LanguageFundamentals/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProgrammingLanguages/Java/LanguageFundamentals/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../ProgrammingLanguages/Java/LanguageFundamentals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProgrammingLanguages/Java/LanguageFundamentals/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -54,96 +64,100 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/Computer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/DelhiFeedbackXMLParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="160">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/PC.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/MumbaiErrorXMLParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-70">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="160">
+              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/MumbaiFeedbackXMLParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/MumbaiOrderXMLParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/MumbaiResponseXMLParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/DelhiXMLParserFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/MumbaiXMLParserFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/ParserFactoryProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
               <folding>
-                <element signature="e#146#147#0" expanded="true" />
-                <element signature="e#164#165#0" expanded="true" />
-                <element signature="e#202#203#0" expanded="true" />
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/Server.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/AbstractFactoryMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-150">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-              <folding>
-                <element signature="e#149#150#0" expanded="true" />
-                <element signature="e#167#168#0" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-                <element signature="e#589#590#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/ComputerFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/FactoryMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="20" column="62" lean-forward="true" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+            <state relative-caret-position="144">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/SuperComputer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-              <folding>
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#521#522#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/ComputerType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/ProblemStatement.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="281">
+                <caret line="55" selection-start-line="55" selection-end-line="55" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -153,8 +167,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -182,12 +196,40 @@
         <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/SuperComputer.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/Server.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/PC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/ProblemStatement.md" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/FeedbackXMLParsers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/OrderXMLParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/XMLParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/ErrorXMLParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/ResponseXMLParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/DisplayService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/FeedbackXMLDisplayService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/ErrorXMLDisplayService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/OrderXMLDisplayService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/ResponseXMLDisplayService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/FactoryMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/XMLParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/AbstractXMLParserFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/DelhiParserFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/DelhiErrorXMLParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/DelhiResponseXMLParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/DelhiOrderXMLParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/DelhiFeedbackXMLParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/MumbaiErrorXMLParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/MumbaiFeedbackXMLParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/MumbaiOrderXMLParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/MumbaiResponseXMLParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/DelhiXMLParserFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/MumbaiXMLParserFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/ParserFactoryProducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/AbstractFactoryMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/ProblemStatement.MD" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -232,7 +274,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="creational" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designpatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="creational" type="462c0819:PsiDirectoryNode" />
+              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -245,7 +296,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -264,7 +315,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.AbstractFactoryMain">
+    <configuration name="AbstractFactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.redquark.csfundamentals.designpatterns.creational.abstractfactory.AbstractFactoryMain" />
+      <module name="designpatterns.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.redquark.csfundamentals.designpatterns.creational.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.redquark.csfundamentals.designpatterns.creational.factory.FactoryMain" />
       <module name="designpatterns.main" />
@@ -280,6 +344,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbstractFactoryMain" />
         <item itemvalue="Application.FactoryMain" />
       </list>
     </recent_temporary>
@@ -302,23 +367,34 @@
       <option name="project" value="LOCAL" />
       <updated>1558189544070</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added basic implementation of the Factory design pattern">
+      <created>1558199231935</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558199231935</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added basic implementation of the Factory design pattern">
+      <created>1558267728255</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558267728255</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2613293" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.32899022" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
@@ -326,15 +402,19 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32899022" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -343,7 +423,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Initial Commit - Project Structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit - Project Structure" />
+    <MESSAGE value="Added basic implementation of the Factory design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added basic implementation of the Factory design pattern" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -356,82 +437,223 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/Computer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/Computer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/PC.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/Server.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/ComputerFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/ComputerType.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/SuperComputer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/XMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/ErrorXMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/FeedbackXMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/OrderXMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/ResponseXMLParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/PC.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/FeedbackXMLDisplayService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="48">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
           <folding>
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
             <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding>
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/ProblemStatement.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="880">
+            <caret line="55" column="69" selection-start-line="55" selection-start-column="69" selection-end-line="55" selection-end-column="69" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/ComputerFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/DisplayService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="192">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/OrderXMLDisplayService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/FactoryMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="62" lean-forward="true" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+        <state relative-caret-position="48">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/ComputerType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/ErrorXMLDisplayService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="48">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/SuperComputer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/factory/ResponseXMLDisplayService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        <state relative-caret-position="160">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/XMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/AbstractXMLParserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/DelhiParserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           <folding>
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/DelhiErrorXMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/DelhiResponseXMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/DelhiOrderXMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/DelhiFeedbackXMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/MumbaiErrorXMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/MumbaiFeedbackXMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/MumbaiOrderXMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/MumbaiResponseXMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/DelhiXMLParserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/MumbaiXMLParserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/ParserFactoryProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/AbstractFactoryMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/ProblemStatement.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="281">
+            <caret line="55" selection-start-line="55" selection-end-line="55" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

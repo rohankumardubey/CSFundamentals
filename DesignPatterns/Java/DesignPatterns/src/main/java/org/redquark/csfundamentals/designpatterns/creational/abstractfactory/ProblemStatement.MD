@@ -35,12 +35,12 @@ The abstract factory is useful for plugging in a different group of objects to a
 family, a concrete factory is implemented that manages the creation of the objects and the inter-dependencies and consistency
 requirements between them. Each concrete factory implements the interface of the abstract factory
 
-![](.ProblemStatement.MD_images/UML Diagram - Abstract Factory.png)
+![UML Diagram](https://github.com/ani03sha/CSFundamentals/blob/master/DesignPatterns/Java/DesignPatterns/src/main/java/org/redquark/csfundamentals/designpatterns/creational/abstractfactory/.ProblemStatement.MD_images/UML%20Diagram%20-%20Abstract%20Factory.png)
 
 ### AbstractFactory
 - Declares an interface for operations that create abstract product objects.
 
-###ConcreteFactory
+### ConcreteFactory
 - Implements the operations to create concrete product objects.
 
 ### AbstractProduct

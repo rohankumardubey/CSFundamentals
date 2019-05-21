@@ -52,7 +52,7 @@ common Builder interface to be implemented by different concrete builders.
 The new design eliminates the need for a client object to deal with the methods constituting the object construction process and
 encapsulates the details of how the object is constructed from the client.
 
-![UML Diagram](.ProblemStatement.MD_images/UML Diagram = Builder.png)
+![UML Diagram](https://github.com/ani03sha/CSFundamentals/blob/master/DesignPatterns/Java/DesignPatterns/src/main/java/org/redquark/csfundamentals/designpatterns/creational/builder/.ProblemStatement.MD_images/UML%20Diagram%20%3D%20Builder.png)
 
 
 ### Builder

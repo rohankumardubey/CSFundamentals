@@ -38,7 +38,7 @@ An adapter uses composition to store the object it is supposed to adapt, and whe
 those calls into something the adapted object can understand and passes the calls on to the adapted object. The code that calls the
 adapter never needs to know that it’s not dealing with the kind of object it thinks it is, but an adapted object instead.
 
-![UML Diagram](.ProblemStatement.MD_images/UML Diagram - Adapter.png)
+![UML Diagram](https://github.com/ani03sha/CSFundamentals/blob/master/DesignPatterns/Java/DesignPatterns/src/main/java/org/redquark/csfundamentals/designpatterns/structural/adapter/.ProblemStatement.MD_images/UML%20Diagram%20-%20Adapter.png)
 
 
 ## When to use Adapter Pattern

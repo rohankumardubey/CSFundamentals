@@ -27,7 +27,7 @@ Decorator prevents the proliferation of subclasses leading to less complexity an
 capabilities. The same capability can even be added twice. It becomes possible to have different decorator objects for a given
 object simultaneously. A client can choose what capabilities it wants by sending messages to an appropriate decorator.
 
-![](.ProblemStatement.MD_images/UML Diagram - Decorator.png)
+![UML Diagram](https://github.com/ani03sha/CSFundamentals/blob/master/DesignPatterns/Java/DesignPatterns/src/main/java/org/redquark/csfundamentals/designpatterns/structural/decorator/.ProblemStatement.MD_images/UML%20Diagram%20-%20Decorator.png)
 
 
 ### Component

@@ -6,7 +6,8 @@ Factory Method Design Pattern to solve their problem.
 
 The application is working fine for them. But now the clients don’t want to follow the company’s specifics XML rules. The
 clients want to use their own XML rules to communicate with the product company. This means that for every client, the
-company should have client specific XML parsers. For example, for the NY client there should be four specific types of XML
+company should have client specific XML parsers. For example, for the Delhi client there should be four specific 
+types of XML
 parsers, i.e. DelhiErrorXMLParser, DelhiFeedbackXMLParser, DelhiOrderXMLParser, DelhiResponseXMLParser, and four 
 different parsers for the Mumbai client.
 

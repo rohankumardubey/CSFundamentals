@@ -44,7 +44,7 @@ interface to subsystem interfaces. Clients that use the facade don’t have to a
 Please note that, a Facade same as an Adapter can wrap multiple classes, but a facade is used to an interface to simplify the use
 of the complex interface, whereas, an adapter is used to convert the interface to an interface the client expects.
 
-![UML Diagram](.ProblemStatement.MD_images/UML Diagram - Facade.png)
+![UML Diagram](https://github.com/ani03sha/CSFundamentals/blob/master/DesignPatterns/Java/DesignPatterns/src/main/java/org/redquark/csfundamentals/designpatterns/structural/facade/.ProblemStatement.MD_images/UML%20Diagram%20-%20Facade.png)
 
 
 ## Solution to the problem

@@ -34,7 +34,7 @@ The Bridge design pattern can resolve this problem.
 The Bridge Pattern’s intent is to decouple an abstraction from its implementation so that the two can vary independently. It puts
 the abstraction and implementation into two different class hierarchies so that both can be extend independently.
 
-![UML_Diagram](.ProblemStatement.MD_images/UML Diagram - Bridge.png)
+![UML_Diagram](https://github.com/ani03sha/CSFundamentals/blob/master/DesignPatterns/Java/DesignPatterns/src/main/java/org/redquark/csfundamentals/designpatterns/structural/bridge/.ProblemStatement.MD_images/UML%20Diagram%20-%20Bridge.png)
 
 The components of the Bridge Pattern comprise of an abstraction, refined abstraction, an implementer, and concrete implementer.
 

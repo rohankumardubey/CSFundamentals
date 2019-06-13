@@ -1,4 +1,4 @@
-# This method will sort the array in the ascending order using selection sort algorithm
+# This method will sort the array in the ascending order using insertion sort algorithm
 def sort(array):
     # Length of the array
     length = len(array)

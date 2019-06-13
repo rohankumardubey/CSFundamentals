@@ -1,4 +1,4 @@
-# This method will sort the array in the ascending order using bubble sort algorithm """
+# This method will sort the array in the ascending order using bubble sort algorithm
 def sort(array):
     # Finding the length of the array passed
     length = len(array)

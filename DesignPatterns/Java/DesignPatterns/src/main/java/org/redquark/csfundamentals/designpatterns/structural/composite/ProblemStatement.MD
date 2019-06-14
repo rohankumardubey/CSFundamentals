@@ -35,13 +35,13 @@ The Composite Pattern has four participants:
 - Client
 
 
-![Structural Diagram](.ProblemStatement.MD_images/Structural Digram.png)
+![Structural Diagram](https://github.com/ani03sha/CSFundamentals/blob/master/DesignPatterns/Java/DesignPatterns/src/main/java/org/redquark/csfundamentals/designpatterns/structural/composite/.ProblemStatement.MD_images/Structural%20Digram.png)
 
 The Composite’s role is to define the behavior of the components having children and to store child components. The Composite
 also implements the Leaf related operations. These operations may or may not take any sense; it depends on the functionality
 implements using the pattern.
 
-![UML Diagram](.ProblemStatement.MD_images/UML Diagram - Composite.png)
+![UML Diagram](https://github.com/ani03sha/CSFundamentals/blob/master/DesignPatterns/Java/DesignPatterns/src/main/java/org/redquark/csfundamentals/designpatterns/structural/composite/.ProblemStatement.MD_images/UML%20Diagram%20-%20Composite.png)
 
 A Leaf defines the behavior for the elements in the composition. It does this by implementing the operations the 
 Component supports. Leaf also inherits methods, which don’t necessarily make a lot of sense for a leaf node.

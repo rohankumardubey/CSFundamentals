@@ -22,7 +22,7 @@ object for the client. But there are many variations to this approach which we w
 
 Let us see the structure of the Proxy Pattern and its important participants.
 
-![UML Diagram](.ProblemStatement.MD_images/UML Diagram - Proxy.png)
+![UML Diagram](https://github.com/ani03sha/CSFundamentals/blob/master/DesignPatterns/Java/DesignPatterns/src/main/java/org/redquark/csfundamentals/designpatterns/structural/proxy/.ProblemStatement.MD_images/UML%20Diagram%20-%20Proxy.png)
 
 - Proxy: 1a. Maintains a reference that lets the proxy access the real subject. Proxy may refer to a Subject if the 
 RealSubject

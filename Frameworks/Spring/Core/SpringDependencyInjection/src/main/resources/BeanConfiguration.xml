@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+
+	<bean id="sms"
+		class="org.redquark.csfundamentals.spring.springdi.services.impl.SMSMessageServiceImpl">
+	</bean>
+	
+	<bean id="xmlComponent" name="xmlComponent"
+		class="org.redquark.csfundamentals.spring.springdi.components.XMLBasedComponent">
+		<property name="service" ref="sms"></property>
+	</bean>
+
+</beans>

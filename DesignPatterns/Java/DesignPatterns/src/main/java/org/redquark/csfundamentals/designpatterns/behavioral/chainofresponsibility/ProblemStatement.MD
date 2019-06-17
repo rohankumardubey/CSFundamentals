@@ -46,7 +46,7 @@ The first object in the chain receives the request and decides either to handle 
 next object in the chain. The request flows through all objects in the chain one after the other until the request is
  handled by one of the handlers in the chain or the request reaches the end of the chain without getting processed.
  
-![UML Diagram](.ProblemStatement.MD_images/UML Diagram - Chain of Responsibility.png)
+![UML Diagram](https://github.com/ani03sha/CSFundamentals/blob/master/DesignPatterns/Java/DesignPatterns/src/main/java/org/redquark/csfundamentals/designpatterns/behavioral/chainofresponsibility/.ProblemStatement.MD_images/UML%20Diagram%20-%20Chain%20of%20Responsibility.png)
 
 
 ### Handler

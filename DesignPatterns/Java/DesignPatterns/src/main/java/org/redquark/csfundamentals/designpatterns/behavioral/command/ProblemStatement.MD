@@ -37,7 +37,7 @@ A given Command object is responsible for offering the functionality required to
 not contain the actual implementation of the functionality. Command objects make use of Receiver objects in offering this
 functionality.
 
-![UML Diagram](.ProblemStatement.MD_images/UML Diagram - Command.png)
+![UML Diagram](https://github.com/ani03sha/CSFundamentals/blob/master/DesignPatterns/Java/DesignPatterns/src/main/java/org/redquark/csfundamentals/designpatterns/behavioral/command/.ProblemStatement.MD_images/UML%20Diagram%20-%20Command.png)
 
 
 ### Command

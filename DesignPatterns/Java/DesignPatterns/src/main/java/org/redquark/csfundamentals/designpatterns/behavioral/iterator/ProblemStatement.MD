@@ -26,7 +26,7 @@ should be designed to provide a public interface in the form of an Iterator obje
 
 An Iterator object contains public methods to allow a client object to navigate through the list of objects within the container.
 
-![UML Diagram](.ProblemStatement.MD_images/UML Diagram - Iterator.png)
+![UML Diagram](https://github.com/ani03sha/CSFundamentals/blob/master/DesignPatterns/Java/DesignPatterns/src/main/java/org/redquark/csfundamentals/designpatterns/behavioral/iterator/.ProblemStatement.MD_images/UML%20Diagram%20-%20Iterator.png)
 
 ### Iterator
 - Defines an interface for accessing and traversing elements.

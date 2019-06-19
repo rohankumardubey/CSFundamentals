@@ -62,7 +62,7 @@ Enumeration. This object is returned to a client object in response to the eleme
 exclusive Iterator object.
 
 
-##When to use the Iterator Design Pattern
+## When to use the Iterator Design Pattern
    
 Use the Iterator pattern:
 - To access an aggregate object’s contents without exposing its internal representation.

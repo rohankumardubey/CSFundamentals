@@ -25,7 +25,7 @@ object in the initialized state, when the object was created.
 The Memento Pattern’s intent is, without violating encapsulation, to capture and externalize an object’s internal state so that the
 object can be restored to this state later.
 
-![UML Diagram](.ProblemStatement.MD_images/UML Diagram - Memento.png)
+![UML Diagram](https://github.com/ani03sha/CSFundamentals/blob/master/DesignPatterns/Java/DesignPatterns/src/main/java/org/redquark/csfundamentals/designpatterns/behavioral/memento/.ProblemStatement.MD_images/UML%20Diagram%20-%20Memento.png)
 
 
 ### Memento

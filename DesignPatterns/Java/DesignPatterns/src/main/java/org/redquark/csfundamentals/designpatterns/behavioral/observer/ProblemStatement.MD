@@ -32,7 +32,7 @@ that you subscribe to a magazine for your favorite sports or fashion magazine. W
 to you. If you unsubscribe from it when you don’t want the magazine anymore, it will not get delivered to you. But the publisher
 continues to work as before, since there are other people who are also subscribed to that particular magazine.
 
-![UML Diagram 1](.ProblemStatement.MD_images/UML Diagram 1 - Observer.png)
+![UML Diagram 1](https://github.com/ani03sha/CSFundamentals/blob/master/DesignPatterns/Java/DesignPatterns/src/main/java/org/redquark/csfundamentals/designpatterns/behavioral/observer/.ProblemStatement.MD_images/UML%20Diagram%201%20-%20Observer.png)
 
 There are four participants in the Observer pattern:
 - Subject, which is used to register observers. Objects use this interface to register as observers and also to remove

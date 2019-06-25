@@ -52,12 +52,12 @@ objects. The coupling between objects goes from tight and brittle to loose and a
 
 Before Mediator the interaction between the classes might look like this, containing references of each other.
 
-![UML Diagram 1](.ProblemStatement.MD_images/UML Diagram 1 - Mediator.png)
+![UML Diagram 1](https://github.com/ani03sha/CSFundamentals/blob/master/DesignPatterns/Java/DesignPatterns/src/main/java/org/redquark/csfundamentals/designpatterns/behavioral/mediator/.ProblemStatement.MD_images/UML%20Diagram%201%20-%20Mediator.png)
 
 Now, after implementing a Mediator the interaction between the classes looks like this, only containing a reference to the
 mediator.
 
-![UML Diagram 2](.ProblemStatement.MD_images/UML Diagram 2 - Mediator.png)
+![UML Diagram 2](https://github.com/ani03sha/CSFundamentals/blob/master/DesignPatterns/Java/DesignPatterns/src/main/java/org/redquark/csfundamentals/designpatterns/behavioral/mediator/.ProblemStatement.MD_images/UML%20Diagram%202%20-%20Mediator.png)
 
 The Mediator design pattern should be your first choice any time you have a set of objects that are tightly coupled. If every one
 of a series of objects has to know the internal details of the other objects, and maintaining those relationships becomes a problem,
@@ -67,7 +67,7 @@ encapsulation may be faulty. It might be time to rethink how you’ve broken you
 
 Let’s look at more formal structure of the Mediator Pattern - 
 
-![UML Diagram 3](.ProblemStatement.MD_images/UML Diagram 3 - Mediator.png)
+![UML Diagram 3](https://github.com/ani03sha/CSFundamentals/blob/master/DesignPatterns/Java/DesignPatterns/src/main/java/org/redquark/csfundamentals/designpatterns/behavioral/mediator/.ProblemStatement.MD_images/UML%20Diagram%203%20-%20Mediator.png)
 
 The classes which hold reference of the mediator are called colleagues. The major participants of the Mediator Pattern are:
 

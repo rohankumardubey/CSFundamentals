@@ -54,7 +54,7 @@ of the State classes representing specific states are expected to provide the ne
 the context into other states. When an application object makes a call to a Context method (behavior),it forwards the
  method call to its current State object.
 
-![UML Diagram](.ProblemStatement.MD_images/UML Diagram - State.png)
+![UML Diagram](https://github.com/ani03sha/CSFundamentals/blob/master/DesignPatterns/Java/DesignPatterns/src/main/java/org/redquark/csfundamentals/designpatterns/behavioral/state/.ProblemStatement.MD_images/UML%20Diagram%20-%20State.png)
 
 
 ### Context

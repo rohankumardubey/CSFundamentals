@@ -37,7 +37,7 @@ separates the implementation of an algorithm from the context that uses it. As a
 is changed or a new algorithm is added to the group, both the context and the client object (that uses the context)
 remain unaffected.
 
-![UML Diagram](.ProblemStatement.MD_images/UML Diagram - Strategy.png)
+![UML Diagram](https://github.com/ani03sha/CSFundamentals/blob/master/DesignPatterns/Java/DesignPatterns/src/main/java/org/redquark/csfundamentals/designpatterns/behavioral/strategy/.ProblemStatement.MD_images/UML%20Diagram%20-%20Strategy.png)
 
 
 ### Strategy

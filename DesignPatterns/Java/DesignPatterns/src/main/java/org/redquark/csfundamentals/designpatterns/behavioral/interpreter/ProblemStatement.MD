@@ -43,7 +43,7 @@ language with extensive, complex grammar rules requires a large number of classe
  when the grammar is simple. Having a simple grammar avoids the need to have many classes corresponding to the 
  complex set of rules involved, which are hard to manage and maintain.
  
-![UML Diagram](.ProblemStatement.MD_images/UML Diagram - Interpreter.png)
+![UML Diagram](https://github.com/ani03sha/CSFundamentals/blob/master/DesignPatterns/Java/DesignPatterns/src/main/java/org/redquark/csfundamentals/designpatterns/behavioral/interpreter/.ProblemStatement.MD_images/UML%20Diagram%20-%20Interpreter.png)
 
 
 ### AbstractExpression

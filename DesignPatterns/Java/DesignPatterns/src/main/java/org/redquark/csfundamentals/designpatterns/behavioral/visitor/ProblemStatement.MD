@@ -25,7 +25,7 @@ from the object collection that it operates on. For every new operation to be de
 operation is to be performed across a set of objects, the visitor needs a way of accessing the public members of these objects.
 This requirement can be addressed by implementing the following two design ideas.
 
-![UML Diagram](.ProblemStatement.MD_images/UML Diagram - Visitor.png)
+![UML Diagram](https://github.com/ani03sha/CSFundamentals/blob/master/DesignPatterns/Java/DesignPatterns/src/main/java/org/redquark/csfundamentals/designpatterns/behavioral/visitor/.ProblemStatement.MD_images/UML%20Diagram%20-%20Visitor.png)
 
 
 ### Visitor

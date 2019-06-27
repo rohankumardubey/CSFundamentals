@@ -38,7 +38,7 @@ invariant across different implementations. It can even provide default implemen
 specific details will be implemented inside different subclasses. This type of implementation eliminates the need for duplicate
 code, which means a minimum amount of code to be written.
 
-![UML Diagram](.ProblemStatement.MD_images/UML Diagram - Strategy.png)
+![UML Diagram](https://github.com/ani03sha/CSFundamentals/blob/master/DesignPatterns/Java/DesignPatterns/src/main/java/org/redquark/csfundamentals/designpatterns/behavioral/template/.ProblemStatement.MD_images/UML%20Diagram%20-%20Strategy.png)
 
 
 ### AbstractClass

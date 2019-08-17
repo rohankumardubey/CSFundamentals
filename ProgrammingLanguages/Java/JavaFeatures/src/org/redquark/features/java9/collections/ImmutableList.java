@@ -19,7 +19,7 @@ public class ImmutableList {
 			// Adding an extra element in the immutable list - UnsupportedOperationException
 			names.add("Yagvalakya");
 		} catch (UnsupportedOperationException e) {
-			e.printStackTrace();
+			System.out.println("UnsupportedOperationException occurred");
 		}
 
 		try {
@@ -27,7 +27,7 @@ public class ImmutableList {
 			List<String> names2 = List.of("Shushuta", "Charaka", "Kanad", null);
 			System.out.println(names2);
 		} catch (NullPointerException e) {
-			e.printStackTrace();
+			System.out.println("NullPointerException occurred");
 		}
 	}
 

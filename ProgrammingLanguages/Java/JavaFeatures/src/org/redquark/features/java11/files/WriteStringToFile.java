@@ -1,4 +1,4 @@
-package org.redquark.features.java11.streams;
+package org.redquark.features.java11.files;
 
 import java.io.IOException;
 import java.nio.file.Files;

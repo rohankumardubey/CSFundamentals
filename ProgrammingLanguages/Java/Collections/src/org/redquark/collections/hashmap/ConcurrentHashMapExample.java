@@ -24,7 +24,20 @@ public class ConcurrentHashMapExample {
 
 		Iterator<Integer> iterator = chm.keySet().iterator();
 
-		// Using synchronized block is advisable
+		/*
+		 * Using synchronized block is advisable.
+		 * 
+		 * iterator obtained from ConcurrentHashMap does not throw
+		 * ConcurrentModificationException. However, iterators are designed to be used
+		 * by only one thread at a time. It means each iterator we obtain from a
+		 * ConcurrentHashMap is designed to be used by a single thread and should not be
+		 * passed around.
+		 * 
+		 * If we do so then there is no guarantee that one thread will see the changes
+		 * to the map that the other thread performs (without obtaining a new iterator
+		 * from the map). The iterator is guaranteed to reflect the state of the map at
+		 * the time of it’s creation.
+		 */
 		synchronized (chm) {
 			while (iterator.hasNext()) {
 				Integer key = iterator.next();

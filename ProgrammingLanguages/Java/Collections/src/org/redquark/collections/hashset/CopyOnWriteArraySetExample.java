@@ -1,4 +1,4 @@
-package org.redquark.collections.queue;
+package org.redquark.collections.hashset;
 
 import java.util.Arrays;
 import java.util.Iterator;

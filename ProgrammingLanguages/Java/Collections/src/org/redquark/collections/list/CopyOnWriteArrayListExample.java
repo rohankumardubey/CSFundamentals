@@ -1,4 +1,4 @@
-package org.redquark.collections.queue;
+package org.redquark.collections.list;
 
 import java.util.Iterator;
 import java.util.List;

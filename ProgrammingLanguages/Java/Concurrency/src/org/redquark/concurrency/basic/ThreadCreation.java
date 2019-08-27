@@ -1,4 +1,4 @@
-package org.redquark.concurrency.synchronize;
+package org.redquark.concurrency.basic;
 
 /**
  * @author Anirudh Sharma

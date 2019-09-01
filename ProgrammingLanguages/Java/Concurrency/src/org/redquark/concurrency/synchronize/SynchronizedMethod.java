@@ -28,6 +28,7 @@ public class SynchronizedMethod {
 				try {
 					System.out.println(Thread.currentThread().getName() + " :: " + i);
 					Thread.sleep(500);
+					System.out.println("Does thread hold lock? =>" +  Thread.holdsLock(this));
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}

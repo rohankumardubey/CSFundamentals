@@ -30,6 +30,7 @@ public class SynchronizedBlock {
 					for (int i = 0; i < n; i++) {
 						System.out.println(Thread.currentThread().getName() + " :: " + i);
 						Thread.sleep(500);
+						System.out.println("Does thread hold lock? =>" +  Thread.holdsLock(this));
 					}
 				}
 			} catch (InterruptedException e) {

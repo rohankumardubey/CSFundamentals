@@ -13,7 +13,7 @@ public class Palindrome {
 	 * 
 	 * 1. Never odd or even
 	 * 2. A nut for a jar of Tuna
-	 * 3. Al lets Della call Ed Stella.
+	 * 3. Al lets Della call Ed Stella
 	 * 4. Amore, Roma
 	 * 5. Are we not pure? “No, sir!” Panama’s moody Noriega brags. “It is garbage!” Irony dooms a man—a prisoner up to new era.
 	 * 6. Borrow or rob?
@@ -25,7 +25,7 @@ public class Palindrome {
 	 * 12. Madam, in Eden, I’m Adam
 	 * 13. Murder for a jar of red rum
 	 * 14. Oozy rat in a sanitary zoo
-	 * 15. Yo, banana boy
+	 * 15. Yo, banana boy!
 	 */
 	
 	
@@ -39,16 +39,17 @@ public class Palindrome {
 		scanner.close();
 		
 		// Trim all the white spaces and convert to lower case
-		sentence = sentence.trim().toLowerCase();
+		sentence = sentence.replaceAll("\\s", "").toLowerCase();
 
 		int length = sentence.length();
 		boolean isPalindrome = false;
 
-		for (int i = 0; i < length; i++) {
+		for (int i = 0; i < length / 2; i++) {
 			if (sentence.charAt(i) == sentence.charAt(length - 1 - i)) {
 				isPalindrome = true;
 			} else {
 				isPalindrome = false;
+				break;
 			}
 		}
 

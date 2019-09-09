@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * This thread demonstreates the concept of busy spin in which the consumer
+ * This thread demonstrates the concept of busy spin in which the consumer
  * thread will wait until the producer thread does not fill the queue up to the
  * size of 5
  * 

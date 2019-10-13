@@ -24,29 +24,45 @@ public class ReverseArray {
 
 	}
 
+	/**
+	 * This method is used to reverse the array using iterative approach
+	 */
 	private static void iterative(int[] arr) {
+
+		// Initializing low and high pointer
 		int low = 0;
 		int high = arr.length - 1;
 
+		// Loop until low reaches high
 		while (low < high) {
+			// Swapping the values at current low and current high
 			int temp = arr[low];
 			arr[low] = arr[high];
 			arr[high] = temp;
+
+			// Incrementing low to move one element forward
 			low++;
+			// Decrementing high to move one element backward
 			high--;
 		}
 	}
 
+	/**
+	 * This method uses the recursive approach to reverse an array
+	 */
 	private static void recursive(int[] arr, int low, int high) {
 
+		// Base condition
 		if (low >= high) {
 			return;
 		}
 
+		// Swap the elements at current low and current high
 		int temp = arr[low];
 		arr[low] = arr[high];
 		arr[high] = temp;
 
+		// Recursive call for the next elements in the forward and backward direction
 		recursive(arr, low + 1, high - 1);
 	}
 }

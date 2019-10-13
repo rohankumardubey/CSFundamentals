@@ -41,6 +41,7 @@ public class WaysToReachNthStair {
 		for (int i = 2; i < n; i++) {
 			// Setting the ith value to zero
 			result[i] = 0;
+			// Count the ways to reach to the ith stair
 			for (int j = 1; j <= m && j <= i; j++) {
 				result[i] = result[i] + result[i - j];
 			}

@@ -23,7 +23,7 @@ public class ArrayWaveForm {
 				swap(a, i - 1, i);
 			}
 
-			// Swap if the current element is small than the next
+			// Swap if the current element is smaller than the next
 			if (i < a.length - 1 && a[i] < a[i + 1]) {
 				swap(a, i, i + 1);
 			}

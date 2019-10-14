@@ -1,6 +1,9 @@
 package org.redquark.problems.miscellaneous;
 
 /**
+ * Given a pointer to a node to be deleted, delete the node. Note that we don’t
+ * have pointer to head node.
+ * 
  * @author Anirudh Sharma
  *
  */
@@ -58,6 +61,10 @@ public class DeleteGivenNodeWithoutHeaderPointer<T> {
 		}
 	}
 
+	/**
+	 * This method deletes the given node by copying the data of next node into the
+	 * given node
+	 */
 	private void delete(Node<T> node) {
 		// Preserving the next of the node to be deleted in a variable
 		Node<T> temp = node.next;

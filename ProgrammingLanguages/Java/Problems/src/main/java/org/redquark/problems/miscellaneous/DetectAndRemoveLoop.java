@@ -1,13 +1,23 @@
 package org.redquark.problems.miscellaneous;
 
 /**
+ * Write a function detectAndRemoveLoop() that checks whether a given Linked
+ * List contains loop and if loop is present then removes the loop and returns
+ * true. If the list doesn’t contain loop then it returns false. Below diagram
+ * shows a linked list with a loop. detectAndRemoveLoop() must change the below
+ * list to 1->2->3->4->5->NULL.
+ * 
  * @author Anirudh Sharma
  *
  */
 public class DetectAndRemoveLoop {
 
+	// Head of the Linked List
 	private static Node head;
 
+	/**
+	 * Node class that represents each node of the Linked List
+	 */
 	private static class Node {
 
 		// Data to be stored in the node
@@ -15,11 +25,17 @@ public class DetectAndRemoveLoop {
 		// Next pointer of the node
 		private Node next;
 
+		/**
+		 * This constructor creates one node with the given data
+		 */
 		public Node(int data) {
 			this.data = data;
 		}
 	}
 
+	/**
+	 * This method detects and removes loop in a LinkedList
+	 */
 	private static void detectAndRemoveLoop(Node node) {
 
 		// Slow pointer
@@ -40,6 +56,7 @@ public class DetectAndRemoveLoop {
 			fast = fast.next.next;
 		}
 
+		// Checks if slow = fast i.e. loop in the linked list is present
 		if (slow == fast) {
 			// Pointing slow pointer to the head
 			slow = node;

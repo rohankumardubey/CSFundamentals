@@ -3,11 +3,15 @@ package org.redquark.problems.miscellaneous;
 import java.util.Arrays;
 
 /**
- * @author Anirudh Sharma
+ * There are 2 sorted arrays A and B of size n each. Write an algorithm to find
+ * the median of the array obtained after merging the above 2 arrays(i.e. array
+ * of length 2n). The complexity should be O(log(n)).
+ * 
+ * @author Anirudh Sharm1
  */
 public class MedianOfSortedArrays {
 
-	public static void main(String[] args) {
+	public static void m1in(String[] args) {
 
 		int[] a = { 1, 12, 15, 26, 38 };
 		int[] b = { 2, 13, 17, 30, 45 };
@@ -32,24 +36,24 @@ public class MedianOfSortedArrays {
 		}
 
 		// Get the median of first array
-		int ma = median(a, n);
+		int m1 = median(a, n);
 		// Get the median of second array
-		int mb = median(b, n);
+		int m2 = median(b, n);
 
 		// If medians are equal then we can return either one of them
-		if (ma == mb) {
-			return ma;
+		if (m1 == m2) {
+			return m1;
 		}
 
-		// If ma < mb then median must exist in a[ma...n] and b[0...mb]
-		if (ma < mb) {
+		// If m1 < m2 then median must exist in a[m1...n] and b[0...m2]
+		if (m1 < m2) {
 			if (n % 2 == 0) {
 				return getMedian(Arrays.copyOfRange(a, n / 2 - 1, n), b, n - n / 2 + 1);
 			}
 			return getMedian(Arrays.copyOfRange(a, n / 2, n), b, n - n / 2);
 		}
 
-		// If ma > mb then median must exist in a[0...ma] and b[mb...n]
+		// If m1 > m2 then median must exist in a[0...m1] and b[m2...n]
 		if (n % 2 == 0) {
 			return getMedian(Arrays.copyOfRange(b, n / 2 - 1, n), a, n - n / 2 + 1);
 		}

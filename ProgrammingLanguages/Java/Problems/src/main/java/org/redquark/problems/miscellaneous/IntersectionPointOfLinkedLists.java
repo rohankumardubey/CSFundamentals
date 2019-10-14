@@ -1,6 +1,11 @@
 package org.redquark.problems.miscellaneous;
 
 /**
+ * There are two singly linked lists in a system. By some programming error, the
+ * end node of one of the linked list got linked to the second list, forming an
+ * inverted Y shaped list. Write a program to get the point where two linked
+ * list merge.
+ * 
  * @author Anirudh Sharma
  *
  */
@@ -28,7 +33,8 @@ public class IntersectionPointOfLinkedLists {
 	 * This method returns the data stored in intersecting node
 	 */
 	private int getIntersectionNode(Node n1, Node n2) {
-		if (n1 == null && n2 == null) {
+		// Base condition of lists are null or non existing
+		if (n1 == null || n2 == null) {
 			return -1;
 		}
 
@@ -41,30 +47,30 @@ public class IntersectionPointOfLinkedLists {
 		int d = Math.abs(count1 - count2);
 
 		// Temporary node reference pointer
-		Node temp;
+		Node big;
 		// head of the smaller list
 		Node smallHead;
 		// If list 1 is bigger
 		if (count1 > count2) {
-			temp = n1;
+			big = n1;
 			smallHead = n2;
 		} else {
 			// If list 2 is bigger
-			temp = n2;
+			big = n2;
 			smallHead = n1;
 		}
 
 		// Loop the bigger list until the difference
 		for (int i = 0; i < d; i++) {
-			temp = temp.next;
+			big = big.next;
 		}
 		// At this point we have temp with the reference to the node from where we are
 		// going to compare both lists
-		while (temp.next != null) {
-			if (temp.data == smallHead.data) {
-				return temp.data;
+		while (big.next != null) {
+			if (big.data == smallHead.data) {
+				return big.data;
 			} else {
-				temp = temp.next;
+				big = big.next;
 				smallHead = smallHead.next;
 			}
 		}

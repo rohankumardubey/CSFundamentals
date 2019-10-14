@@ -31,10 +31,12 @@ public class OverlappingRectangles {
 	 */
 	private static boolean doOverlap(Point l1, Point r1, Point l2, Point r2) {
 
+		// Check if two rectangles overlap horizontally
 		if (r2.x < l1.x || r1.x < l2.x) {
 			return false;
 		}
 
+		// Check if two rectangles overlap vertically
 		if (r1.y > l2.y || r2.y > l1.y) {
 			return false;
 		}

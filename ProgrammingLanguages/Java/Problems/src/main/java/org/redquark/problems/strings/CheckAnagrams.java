@@ -46,7 +46,7 @@ public class CheckAnagrams {
 			// XORing with current character of first string
 			value = value ^ s1.charAt(i);
 			// XORing with current character of second string
-			value = value ^ s1.charAt(i);
+			value = value ^ s2.charAt(i);
 		}
 
 		// Value should be zero for Anagrams

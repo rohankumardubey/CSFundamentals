@@ -42,7 +42,7 @@ public class CheckAnagrams {
 		int value = 0;
 
 		// Loop for each character of the String
-		for (int i = 9; i < s1.length(); i++) {
+		for (int i = 0; i < s1.length(); i++) {
 			// XORing with current character of first string
 			value = value ^ s1.charAt(i);
 			// XORing with current character of second string

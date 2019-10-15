@@ -30,7 +30,7 @@ public class MaximumConsecutiveRepeatingCharacter {
 		// Character with maximum consecutive counts
 		char result = s.charAt(0);
 
-		for (int i = 0; i < s.length() - 1; i++) {
+		for (int i = 0; i < s.length(); i++) {
 
 			// If current character matches with the next
 			if (i < s.length() - 1 && s.charAt(i) == s.charAt(i + 1)) {

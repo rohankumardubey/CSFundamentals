@@ -1,4 +1,4 @@
-package org.redquark.problems.miscellaneous;
+package org.redquark.problems.strings;
 
 import java.util.ArrayList;
 import java.util.Arrays;

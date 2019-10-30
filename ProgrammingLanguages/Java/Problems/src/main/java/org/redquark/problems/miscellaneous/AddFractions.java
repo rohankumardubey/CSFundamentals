@@ -16,13 +16,26 @@ public class AddFractions {
 		// Array containing denominators of all the fractions
 		int[] denominators = { 4, 9, 12 };
 
+		System.out.println("Sum: " + add(numerators, denominators));
+	}
+
+	/**
+	 * This method adds the fractions
+	 */
+	private static String add(int[] numerators, int[] denominators) {
+
 		// Initialize intermediate numerators and denominators
 		int intermediateNumerator = 0;
 		int intermediateDenominator = 1;
 
 		// Get the product of all the denominators
 		for (int i = 0; i < denominators.length; i++) {
-			intermediateDenominator *= denominators[i];
+			// Check if any denominator is zero
+			if (denominators[i] != 0) {
+				intermediateDenominator *= denominators[i];
+			} else {
+				return "INFINITY";
+			}
 		}
 
 		// Get the sum of all the numerators multiplied by the intermediate denominators
@@ -38,7 +51,7 @@ public class AddFractions {
 		int finalNumerator = intermediateNumerator / gcd;
 		int finalDenominator = intermediateDenominator / gcd;
 
-		System.out.println(finalNumerator + "/" + finalDenominator);
+		return finalNumerator + "/" + finalDenominator;
 	}
 
 	private static int gcd(int a, int b) {

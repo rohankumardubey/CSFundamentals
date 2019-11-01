@@ -38,17 +38,17 @@ public class RearrangeToFormPalindrome {
 	private static boolean checkIfPalindromeCanBeMade(String s) {
 
 		// Create a List to store all the characters in a String
-		List<Character> characters = new ArrayList<>();
+		List<Character> characters = new ArrayList<>(s.length());
 
 		// For each character in the input String, remove the character if already
 		// present else add it
 		for (int i = 0; i < s.length(); i++) {
 			// Current character
-			char c = s.charAt(i);
+			Character c = s.charAt(i);
 			// Check if the character is already present in the List
 			if (characters.contains(c)) {
 				// Remove the character
-				characters.remove((Character) c);
+				characters.remove(c);
 			} else {
 				// Else add it
 				characters.add(c);
@@ -57,10 +57,6 @@ public class RearrangeToFormPalindrome {
 
 		// If character length is even list is expected to be empty
 		// or if character length is odd list size is expected to be 1
-		if ((s.length() % 2 == 0 && characters.isEmpty()) || (s.length() % 2 == 1 && characters.size() == 1)) {
-			return true;
-		} else {
-			return false;
-		}
+		return ((s.length() % 2 == 0 && characters.isEmpty()) || (s.length() % 2 == 1 && characters.size() == 1));
 	}
 }

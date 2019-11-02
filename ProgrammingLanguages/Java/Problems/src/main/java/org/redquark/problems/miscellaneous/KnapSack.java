@@ -17,14 +17,42 @@ public class KnapSack {
 
 	public static void main(String[] args) {
 
-		int[] value = { 60, 100, 120 };
-		int[] weight = { 10, 20, 30 };
+		int[] values = { 60, 100, 120 };
+		int[] weights = { 10, 20, 30 };
 		int W = 50;
-		int n = value.length;
-		System.out.println(getMaxValue(W, weight, value, n));
+		int n = values.length;
+		System.out.println("Solution by Optimal Substrucure approach: " + optimalSubstructure(W, n, values, weights));
+		System.out.println(
+				"Solution by Overlapping Subproblems approach: " + overlappingSubproblems(W, weights, values, n));
 	}
 
-	private static int getMaxValue(int W, int[] weight, int[] value, int n) {
+	/**
+	 * This method finds the maximum value using the optimal substructure approach
+	 */
+	private static int optimalSubstructure(int capacity, int n, int[] values, int[] weights) {
+
+		// Base case - where the capacity is zero or we do not have any more elements to
+		// choose from
+		if (capacity == 0 || n == 0) {
+			return 0;
+		}
+
+		// Check for the weight of the last element
+		// If the weight of the last element is less than the capacity of the KnapSack
+		if (weights[n - 1] <= capacity) {
+			// ... then we either include or exclude the item to get the maximum value
+			return Math.max(values[n - 1] + optimalSubstructure(capacity - weights[n - 1], n - 1, values, weights),
+					optimalSubstructure(capacity, n - 1, values, weights));
+		} else {
+			// ... else we ignore the item
+			return optimalSubstructure(capacity, n - 1, values, weights);
+		}
+	}
+
+	/**
+	 * This method find the maximum value using the overlapping subproblems approach
+	 */
+	private static int overlappingSubproblems(int W, int[] weight, int[] value, int n) {
 
 		// Temporary array that has to be built in bottom up manner
 		int[][] K = new int[n + 1][W + 1];

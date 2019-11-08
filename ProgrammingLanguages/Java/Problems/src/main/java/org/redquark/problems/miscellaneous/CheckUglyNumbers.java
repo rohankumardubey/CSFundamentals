@@ -21,6 +21,14 @@ public class CheckUglyNumbers {
 		// Closing scanner to avoid memory leaks
 		in.close();
 
+		System.out.println(checkUgliness(n) ? "Ugly" : "Not ugly");
+	}
+
+	/**
+	 * This method checks if the given number is an ugly number or not
+	 */
+	private static boolean checkUgliness(int n) {
+
 		// Divide the number until it is divisible by 2
 		while (n % 2 == 0) {
 			n = n / 2;
@@ -36,7 +44,6 @@ public class CheckUglyNumbers {
 			n = n / 5;
 		}
 
-		System.out.println(n == 1 ? "Ugly" : "Not ugly");
+		return n == 1;
 	}
-
 }

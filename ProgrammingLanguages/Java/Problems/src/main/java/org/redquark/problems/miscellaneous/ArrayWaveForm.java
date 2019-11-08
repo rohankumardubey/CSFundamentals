@@ -15,6 +15,12 @@ public class ArrayWaveForm {
 		// Array to be converted into waveform
 		int[] a = { 10, 90, 49, 2, 1, 5, 23 };
 
+		// Printing the array
+		Arrays.stream(convertToWaveform(a)).forEach(i -> System.out.print(i + " "));
+	}
+
+	private static int[] convertToWaveform(int[] a) {
+
 		// Loop through the length of the array but traversing only even elements
 		for (int i = 0; i < a.length; i = i + 2) {
 
@@ -29,8 +35,7 @@ public class ArrayWaveForm {
 			}
 		}
 
-		// Printing the array
-		Arrays.stream(a).forEach(System.out::println);
+		return a;
 	}
 
 	/**

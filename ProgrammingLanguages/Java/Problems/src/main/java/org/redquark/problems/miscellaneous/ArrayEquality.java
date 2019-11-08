@@ -23,6 +23,14 @@ public class ArrayEquality {
 		int[] a = { 3, 5, 2, 5, 2 };
 		int[] b = { 2, 3, 5, 5, 2 };
 
+		checkEquality(a, b);
+	}
+
+	/**
+	 * This method checks if the two given arrays are equal or not
+	 */
+	private static void checkEquality(int[] a, int[] b) {
+
 		// Lengths of arrays
 		int l = a.length;
 		int m = b.length;
@@ -74,5 +82,4 @@ public class ArrayEquality {
 
 		System.out.println("Arrays are equal");
 	}
-
 }
